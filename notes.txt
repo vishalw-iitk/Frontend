@@ -71,3 +71,7 @@ If you go on witing the content in the element then the height of the content wi
 Now if we fix the height of the element to height=50px or max-height=50px and if the content is smaller to get adjusted inside it then alright, no issue. But if the content is bigger then height and max-height values won't have any effect and the content will just get out of the element.
 So by addidng overflow : auto , we make the scrollbar equal to the height/max-height of element so all the contents are limited to the height of that element's height/max-height and will be accessible via scrollbar.
 NOW THE MAIN DIFFERENCE IS THAT height:700px occupies the height of 700px even if it is unutilized and max-height=700px DOESN'T OCCUPY THE HEIGHT OF 700PX IF THE CONTENT IS NOT FULLY OCCUPIED. max-width occupies less height if the content is lesser.
+------
+Seems like min-height behaves like height. Even if the content is smaller, min-height still occupies the larger height if larger height was aloted. Same happens with height as well what I remember.
+Now min-width as well, even if the content is smaller, that element continue to occupy the min-width
+--------
