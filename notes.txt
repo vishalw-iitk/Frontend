@@ -82,3 +82,41 @@ property = outline-width
 property = outline: width style color =>shorthand notation
 property = outline-offset : 15px => outline grows by 15px from all the direction.
 -------
+TEXT edits
+text-align : centre
+text-align : left
+text-align : right
+text-align : justify => like newspaper content. Stretched-out every line at both end
+
+To change the text direction:
+direction: rtl; //creates mirror view
+unicode-bidi: bidi-override; //shifts at the right corner. both work combinely
+
+vertical-align: bottom; //top, middle, bottom
+
+text-decoration : none;
+text-decoration: overline;
+text-decoration: underline;
+text-decoration: line-through;
+
+text-transform: capitalize;
+text-transform: uppercase;
+text-transform: lowercase;
+
+text-indent: 50px; // To specify the indent of the first line of the text
+
+letter-spacing: 3px;
+letter-spacing: -3px;
+
+line-height: 0.8; //to specify the spacing between lines
+line-height: 1.8;
+
+word-spacing: 10px; //to specify spacing between words
+word-spacing: -5px;
+
+white-space: nowrap; //eliminates the extraspacces than required of 1
+
+text-shadow: 2px 2px red;
+text-shadow: 2px 2px 5px red;
+-------------
+
