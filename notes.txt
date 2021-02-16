@@ -44,4 +44,8 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_margin-left_inherit
 WHEN BOTTOM MARGIN OF 1 ELEMENT COLLAPSES WITH TOP MARGIN OF ANOTHER THEN THEY COLLPASE ONLY. means instead of 20+50 = 70margin. We get max(20,50) = 50 margin
 -----------------------------------
 
+BOX MODEL : width, border, padding, margin
+https://www.w3schools.com/css/css_boxmodel.asp
+--------------------------------------------------
+
 
