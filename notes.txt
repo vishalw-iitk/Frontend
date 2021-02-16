@@ -17,3 +17,31 @@ div#a => 1(element) + 100(id) = 101 WINS
 div[id=a] => 1(element) + 10(attributed-id) = 11
 
 internal style CSS will be applied over external style CSS
+
+--------------------
+margin or border etc
+4 values => clockwise
+3 values => top , side, bottom
+2 values => top-bottom , left-right
+1 value => all
+
+margin : auto IS USED TO HORIZONTALLY CENTRE THE element
+------------------------
+MARGIN INHERITING PROPERTY USING THE KEYWORD inherit
+
+div {
+  border: 1px solid red;
+  margin-left: 100px;
+}
+
+p.ex1 {
+  margin-left: inherit;
+}
+
+inner div or 1st div really doesn't work or works ??
+https://www.w3schools.com/css/tryit.asp?filename=trycss_margin-left_inherit
+
+WHEN BOTTOM MARGIN OF 1 ELEMENT COLLAPSES WITH TOP MARGIN OF ANOTHER THEN THEY COLLPASE ONLY. means instead of 20+50 = 70margin. We get max(20,50) = 50 margin
+-----------------------------------
+
+
