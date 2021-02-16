@@ -75,3 +75,10 @@ NOW THE MAIN DIFFERENCE IS THAT height:700px occupies the height of 700px even i
 Seems like min-height behaves like height. Even if the content is smaller, min-height still occupies the larger height if larger height was aloted. Same happens with height as well what I remember.
 Now min-width as well, even if the content is smaller, that element continue to occupy the min-width
 --------
+OUTLINE. It is drwan outside the border. outline size is not included in calculating the element dimension.
+property = outline-style: same as border styles
+property = outline-color
+property = outline-width
+property = outline: width style color =>shorthand notation
+property = outline-offset : 15px => outline grows by 15px from all the direction.
+-------
