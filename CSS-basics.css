@@ -1,10 +1,12 @@
 body{
     background-image: url("https://www.gettyimages.in/gi-resources/images/500px/983794168.jpg");
     background-position: left top;
+    background-attachment: fixed;
     /* background-color: rgb(58, 170, 204); */
 }
 
 .para_out{
     background-color: bisque;
+    opacity: 0.5;
     color : black; 
 }
