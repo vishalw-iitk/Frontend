@@ -5,5 +5,5 @@ body{
 .para_out{
     background-color: bisque;
     color : black; 
-    border-style: ridge;
+    border-style: inset;
 }
