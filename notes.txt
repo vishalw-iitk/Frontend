@@ -60,3 +60,8 @@ When you specify the height or width as a percentage, that's a percentage with r
 WIDTH BY DEFAULT IS FULL SPAN AND HEIGHT DEPENDS ON THE SIZE OF THE CONTENT. SO FULL SPAN CAN BE RESIZED TO HALF, 25%, ETC ETC
 BUT WHEN HEIGHT DEPENDS ON THE CONTENT SIZE THEN % VALUE OF HEIGHT WILL NOT DO ANYTHING. WE HAVE APPLY SPECIFIC VALUE OF HEIGHT TO SEE THE HEIGHT RESULT.
 -----------------------------
+scrollbar at the bottom of the window is added when the window size is decreased with <p>'s width=700px. Font size no effect.
+If width is set to 50% then scrollbar is not added and the element gets 50% of the shrinked window. Inside content are arjusted inside the element withthe same font size.
+max-width=50 % results same like width=50%
+max-width=700px is different now. The element width is fixed to 700px as expected, but instead of adding the scrollbars, we get the adjusted content in the same element with no penalty over font-size
+--------------------------------------------
