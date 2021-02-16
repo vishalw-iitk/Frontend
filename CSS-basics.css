@@ -2,9 +2,12 @@ body{
     background-color: rgb(58, 170, 204);
 }
 
-.para_out{
+.class_div_outside{
+    background-color: rgb(43, 144, 226);
+}
+
+.para_in{
     background-color: bisque;
     color : black; 
-    border: 2px solid red;
-    border-radius: 50px;
+    margin: 8px;
 }
