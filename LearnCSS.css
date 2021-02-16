@@ -1,0 +1,33 @@
+body {
+    background-color: antiquewhite;
+}
+
+.centre-box{
+    display: block;
+    background-color: burlywood;
+    margin: 15% 60% 10% 60%;
+    height: 70vh;
+}
+
+.welcome{
+    display: block;
+    background-color: brown;
+    color: white;
+    font-size: larger;
+    text-align: center;
+    height: 7vh;;
+}
+
+.prev-input, .curr-input{
+    background-color: black;
+    color: white;
+    height: 4vh;
+    text-align: right;
+}
+
+/* .curr-input{
+    background-color: black;
+    color: white;
+    height: 3vh;
+    text-align: right;
+} */
