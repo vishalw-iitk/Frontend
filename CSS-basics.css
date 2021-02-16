@@ -3,6 +3,7 @@ body{
 }
 
 .para_out{
-    background-color: hsl(97, 100%, 37%);
-    border : 2px solid Tomato;
+    background-color: blue;
+    opacity : 0.6; /*value from 0 to 1*/
+    color : black; 
 }
