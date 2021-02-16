@@ -1,26 +1,8 @@
 body{
-    background-color: brown;
+    background-color: rgb(58, 170, 204);
 }
 
-.class_div_outside{
-    background-color: black;
-}
-
-p.para_in, h4{
-    background-color: blue;
-    color: beige;
-}
-
-p.para_out{
-    background-color: yellow;
-    color: black;
-}
-
-*{
-    background-color: blueviolet;
-    color : pink;
-}
-
-#h1_id{
-    color: aqua;
+.para_out{
+    background-color: blanchedalmond;
+    border : 2px solid Tomato;
 }
