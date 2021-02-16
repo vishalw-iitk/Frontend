@@ -48,4 +48,15 @@ BOX MODEL : width, border, padding, margin
 https://www.w3schools.com/css/css_boxmodel.asp
 --------------------------------------------------
 
-
+HEIGHT OF A BLOCK/ELEMENT:
+The height of a block element defaults to the height of the block's content. So, given something like this:
+<div id="outer">
+    <div id="inner">
+        <p>Where is pancakes house?</p>
+    </div>
+</div>
+#inner will grow to be tall enough to contain the paragraph and #outer will grow to be tall enough to contain #inner.
+When you specify the height or width as a percentage, that's a percentage with respect to the element's parent. 
+WIDTH BY DEFAULT IS FULL SPAN AND HEIGHT DEPENDS ON THE SIZE OF THE CONTENT. SO FULL SPAN CAN BE RESIZED TO HALF, 25%, ETC ETC
+BUT WHEN HEIGHT DEPENDS ON THE CONTENT SIZE THEN % VALUE OF HEIGHT WILL NOT DO ANYTHING. WE HAVE APPLY SPECIFIC VALUE OF HEIGHT TO SEE THE HEIGHT RESULT.
+-----------------------------
