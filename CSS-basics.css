@@ -15,3 +15,8 @@ p.para_out{
     background-color: yellow;
     color: black;
 }
+
+*{
+    background-color: blueviolet;
+    color : pink;
+}
