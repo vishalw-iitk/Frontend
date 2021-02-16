@@ -6,7 +6,7 @@ body{
     background-color: black;
 }
 
-p.para_in{
+p.para_in, h4{
     background-color: blue;
     color: beige;
 }
