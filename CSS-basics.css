@@ -6,7 +6,12 @@ body{
     background-color: black;
 }
 
-p{
+p.para_in{
     background-color: blue;
     color: beige;
+}
+
+p.para_out{
+    background-color: yellow;
+    color: black;
 }
