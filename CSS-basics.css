@@ -5,7 +5,6 @@ body{
 .para_out{
     background-color: bisque;
     color : black; 
-    border-style: dotted dashed solid double;
-    border-width: 5px 1px 4px 3px; /* 5px top, 1px right, 4px bottom and 3px left */
-    border-color: red green blue yellow;
+    border: 2px solid red;
+    border-radius: 50px;
 }
