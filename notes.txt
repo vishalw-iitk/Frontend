@@ -60,8 +60,14 @@ When you specify the height or width as a percentage, that's a percentage with r
 WIDTH BY DEFAULT IS FULL SPAN AND HEIGHT DEPENDS ON THE SIZE OF THE CONTENT. SO FULL SPAN CAN BE RESIZED TO HALF, 25%, ETC ETC
 BUT WHEN HEIGHT DEPENDS ON THE CONTENT SIZE THEN % VALUE OF HEIGHT WILL NOT DO ANYTHING. WE HAVE APPLY SPECIFIC VALUE OF HEIGHT TO SEE THE HEIGHT RESULT.
 -----------------------------
+WIDTH VS MAX-WIDTH
 scrollbar at the bottom of the window is added when the window size is decreased with <p>'s width=700px. Font size no effect.
 If width is set to 50% then scrollbar is not added and the element gets 50% of the shrinked window. Inside content are arjusted inside the element withthe same font size.
 max-width=50 % results same like width=50%
 max-width=700px is different now. The element width is fixed to 700px as expected, but instead of adding the scrollbars, we get the adjusted content in the same element with no penalty over font-size
 --------------------------------------------
+HEIGTH VS MAX-HEIGHT and OVERFLOW:AUTO
+If you go on witing the content in the element then the height of the content will grow as we don't penalize the font-size. Correct.
+Now if we fix the height of the element to height=50px or max-height=50px and if the content is smaller to get adjusted inside it then alright, no issue. But if the content is bigger then height and max-height values won't have any effect and the content will just get out of the element.
+So by addidng overflow : auto , we make the scrollbar equal to the height/max-height of element so all the contents are limited to the height of that element's height/max-height and will be accessible via scrollbar.
+NOW THE MAIN DIFFERENCE IS THAT height:700px occupies the height of 700px even if it is unutilized and max-height=700px DOESN'T OCCUPY THE HEIGHT OF 700PX IF THE CONTENT IS NOT FULLY OCCUPIED. max-width occupies less height if the content is lesser.
