@@ -1,0 +1,19 @@
+SPECIFICITY
+
+1. Specificity is a common reason why your CSS-rules don't apply to some elements, although you think they should.
+2. Every selector has its own place in the specificity hierarchy
+3. Inline styles, IDs, classes, attributes, pseudo-classes, elements, pseudo-elements
+4. Inline stlyes : <h1 style="color: #ffffff;"> (1000)
+5. #idname{} (100)
+6. classes : .classname{}                       (10)
+7. attributes : [attributes]{}
+8. pseudo-classes :   :hover{}, :focus{}
+9. elements : h1{}                              (1)
+10. pseudo-elements :   ::before{}, ::after{}
+
+Equal specificity score => select the one which is written later/ at the end of css stylesheet
+div#a => 1(element) + 100(id) = 101 WINS
+#a =>  100(id) = 100
+div[id=a] => 1(element) + 10(attributed-id) = 11
+
+internal style CSS will be applied over external style CSS
