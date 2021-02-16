@@ -1,9 +1,9 @@
 body{
-    background-color: rgb(58, 170, 204);
+    background-image: url("https://www.gettyimages.in/gi-resources/images/500px/983794168.jpg");
+    /* background-color: rgb(58, 170, 204); */
 }
 
 .para_out{
-    background-color: blue;
-    opacity : 0.6; /*value from 0 to 1*/
+    background-color: bisque;
     color : black; 
 }
