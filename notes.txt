@@ -252,3 +252,57 @@ padding: 0;
 LIST SHORTHAND NOTATION
 list-style : list-style-type list-style-position list-style-image;
 -----------------------------------------------------------------------
+CSS TABLES
+<table>
+    <tr>
+        <th></th>      //headers-columns(name) of a table 
+        <th></th>
+    </tr>
+    <tr>
+        <tr></tr>       //normal columns of a row
+        <tr></tr>
+    </tr>
+    <tr>
+        <tr></tr>       //normal columns of a row
+        <tr></tr>
+    </tr>
+</table>
+
+table, th, td {
+  border: 1px solid black;  //double border is default
+}
+table{
+    border-collapse: collapse; //for a single border
+}
+
+table {
+  width : 100%;
+}
+
+table { //only outer border of the table is manipulated
+  border: 1px solid black;
+}
+WE CAN TELL HOW THE CONTENTS OF A CELL SHOULD BE aligned
+td {
+  text-align: center;
+}
+td {
+  height: 50px;
+  vertical-align: bottom;
+}
+
+TO DESIGN ONLY THE INNER STYLES/ LINES IN A TABLE,
+th, td {  //Table outer border is not drawn
+  border-bottom: 1px solid #ddd;
+}
+
+HOVER PROPERTIES CAN BE ADDED TO TABLE, ROWS, columns
+
+JUST LIKE WE ADD HOVER, WE CAN ADD ZEBRA STRIPS AS WELL
+tr:nth-child(even) { // SETTING THE STYLE FOR EVEN ROWS ONLY
+    background-color: #f2f2f2;
+}
+
+IF THE CONTENTS OF THE TABLE ARE NOT ADJUSTABLE TO THE CURRENT WIDTH THEN SCROLL-BAR IS ADDED AT THE BOTTOM OF THE TAB.
+IF WE ADD style="overflow-x:auto;" the scroll-bar will be added at the bottom of the table
+------------------------------------------------------------------
