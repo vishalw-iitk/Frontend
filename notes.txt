@@ -362,4 +362,20 @@ CLEARFIX
 If the float child element is bigger than its content then overflow:auto will help out in getting the container block equal to the size of the float element.
 If we have the fixed size then again scrollbar will be added.
 --------------------------------------------------------
+INLINE-BLOCK
+Unlike the display:inline, in display:inline-block; we can add the height and width of an anchor tags like <a>, <span> <img> nav tag. inline-blocks will be added next to the other and not on the new line.
 
+------------------------------------------------
+ALIGNMENT
+using=> text-align:
+        margin-left:
+        margin-right:
+        margin:
+        positon:
+        float:
+        clearfix's overlfow:
+        padding:
+        line-height:  equal to height of the container
+        positions and transform  .... what is transform ?
+        flexbox, justify-content, align-items
+-----------------------------------------------------
