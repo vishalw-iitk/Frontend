@@ -306,3 +306,16 @@ tr:nth-child(even) { // SETTING THE STYLE FOR EVEN ROWS ONLY
 IF THE CONTENTS OF THE TABLE ARE NOT ADJUSTABLE TO THE CURRENT WIDTH THEN SCROLL-BAR IS ADDED AT THE BOTTOM OF THE TAB.
 IF WE ADD style="overflow-x:auto;" the scroll-bar will be added at the bottom of the table
 ------------------------------------------------------------------
+DISPLAY
+display : inline; => takes only as much space require. in a stright line
+Inline elements don't start on a new line. They don't get stretched out wide. Takes only limited width as required.
+eg:- <a></a> |  <span></span>  | <img></img>
+
+display : block; => block results in a line break.
+block elements are stretched out to full width by default. They start at a new line
+eg:- div, p, h1, form, header, section, etc..
+
+display:none; => removes the element
+
+visibility:hidden; => occupies the alloted space. But is not visible.
+------------------------------------------------------------------------
