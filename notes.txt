@@ -339,3 +339,12 @@ z-index: -1;  => We can add z-index value to mention that whether our element wi
       0 means element will be placed in the front
 clip: rect(0px,60px,200px,0px); => allows us to crop the absolutely positioned elements
 --------------------------------------------------------------
+OVERFLOW
+sometimes content overflow the alloted space to it. Content starts coming out of the box.
+overflow:visible;  => default. Content can easily come out of the parent element. When the content comes out, we may face overlapping issues because of this.
+overflow:hidden;  => The amount of content which comes out of the parent element will be hidden.
+overflow:scroll; => It compulsorilty add the scrollbar. If the content exceed the allocted space then the scroll bar will be added to that element and whole element can be accessed by scrolling.
+overflow:auto; => scrollbar is added only when necessary.
+overflow-x:scroll/hidden  we decide for HORIZONTAL
+overflow-y:scroll/hidden  we decide for VERTICAL
+------------------------------------------------------
