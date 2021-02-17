@@ -319,3 +319,5 @@ display:none; => removes the element
 
 visibility:hidden; => occupies the alloted space. But is not visible.
 ------------------------------------------------------------------------
+POSITION
+position:static; => It means an element will be positioned based on the normal flow of HTML
