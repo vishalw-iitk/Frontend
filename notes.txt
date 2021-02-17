@@ -348,3 +348,8 @@ overflow:auto; => scrollbar is added only when necessary.
 overflow-x:scroll/hidden  we decide for HORIZONTAL
 overflow-y:scroll/hidden  we decide for VERTICAL
 ------------------------------------------------------
+FLOAT
+float:right; element occupies whole right side of the container.
+float:left;
+float:none;
+float is inheritible
