@@ -385,3 +385,8 @@ element>element	    =>  div > p	=>  Selects all <p> elements where the parent is
 element+element	    =>  div + p	=>  Selects the first <p> element that are placed immediately after <div> elements
 element1~element2 	=>  p ~ ul	=>  Selects every <ul> element that are preceded by a <p> element
 ---------------------------------------------------------
+PSEUDO CLASSES AND PSEUDO ELEMENTS
+is a big concept
+https://www.w3schools.com/css/css_pseudo_elements.asp
+There are lot of options to design over the very particular elements.
+------------------------------------------------------------------------
