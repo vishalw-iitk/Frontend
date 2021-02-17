@@ -353,3 +353,13 @@ float:right; element occupies whole right side of the container.
 float:left;
 float:none;
 float is inheritible
+
+CLEAR
+After any floating element is added the we can face overlapping(of block, not content) issues after we add some other element below it(not child)
+To avoid this overlapping of block, we add clear:left | clear:right | clear:both to the upcoming element after float and hence the upcoming element is added may be on the new line. clear left means upcoming element cannot tolerate float elements on its left side and is ready to move may be on the next line
+
+CLEARFIX
+If the float child element is bigger than its content then overflow:auto will help out in getting the container block equal to the size of the float element.
+If we have the fixed size then again scrollbar will be added.
+--------------------------------------------------------
+
