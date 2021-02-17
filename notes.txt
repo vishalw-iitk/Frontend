@@ -119,4 +119,56 @@ white-space: nowrap; //eliminates the extraspacces than required of 1
 text-shadow: 2px 2px red;
 text-shadow: 2px 2px 5px red;
 -------------
+FONT-FAMILY
+If the font name is more than one word, it must be in quotation marks, like: "Times New Roman".
+The font-family property should hold several font names as a "fallback" system, to ensure maximum compatibility between browsers/operating systems. Start with the font you want, and end with a generic family (to let the browser pick a similar font in the generic family, if no other fonts are available). The font names should be separated with comma.
+font-family: "Times New Roman", Times, serif;
+May not be best, but the following are safe fonts almost
+The following list are the best web safe fonts for HTML and CSS:
+Arial (sans-serif)
+Verdana (sans-serif)
+Helvetica (sans-serif)
+Tahoma (sans-serif)
+Trebuchet MS (sans-serif)
+Times New Roman (serif)
+Georgia (serif)
+Garamond (serif)
+Courier New (monospace)
+Brush Script MT (cursive)
 
+FONT-STYLE
+font-style: normal;
+font-style: italic;
+font-style: oblique;
+
+font-weight: normal;
+font-weight: bold;
+
+font-variant: small-caps;
+font-variant: normal;
+
+FONT-SIZE
+If you do not specify a font size, the default size for normal text, like paragraphs, is 16px
+(1em=16px)
+font-size: 40px;
+font-size: 14px;
+font-size: 100%; //means 100% is actual/defualt font-size. If we do do 90% then it decreases and if we do 120% then it increases.
+if we put negative font-size then default value is accepted.
+font-size: 3vw; //viewport-width means responsive text which also depends on the width of the window. If the window is small then texts are small and if window is increased then texts become large enough to come out of the element block.
+With overflow: auto, we can put the large enough contents wrapped by a scrollbars of the element size.
+Viewport is the browser window size. 1vw = 1% of viewport width. If the viewport is 50cm wide, 1vw is 0.5cm.
+
+GOOGLE FONTS CAN BE USED BY PUTTING THE GOOGLE FONT URL IN THE HEAD tag
+make sure to add family=Sofia || family=Audiowide || family=Trirong  in the link tag of google-font URL
+
+To use GOOGLE FONT EFFECTS we have to special add class="font-effect-effectname" eg:class="font-effect-effectname"
+It is like a bootstrap only, adding a class n all. Also in the url we have to add  => &effect=effectname eg:- &effect=fire
+For multiple effects do this : family=Sofia&effect=neon|outline|emboss|shadow-multiple
+
+FONT PAIRING FOR HEADING AND PARAGRAPH
+Georgia and Verdana  // Use the "Georgia" font for headings, and "Verdana" for text
+Helvetica and Garamond
+Popular Google Font Pairings : Merriweather and Open Sans |  Ubuntu and Lora  |  Abril Fatface and Poppins|  Cinzel and Fauna One |  Fjalla One and Libre Baskerville |  Space Mono and Muli |  Spectral and Rubik |  Oswald and Noto Sans
+
+example of SHORTHAND NOTATION : font: italic small-caps bold 12px/30px Georgia, serif;
+--------------------------------
