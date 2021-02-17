@@ -172,7 +172,7 @@ Popular Google Font Pairings : Merriweather and Open Sans |  Ubuntu and Lora  | 
 
 example of SHORTHAND NOTATION : font: italic small-caps bold 12px/30px Georgia, serif;
 --------------------------------
-font awesome
+ICONS =>font awesome
 We need to add a js path in a script tag, We have to sign up for font-awesome serverce. Then we can use the following like classes to get the icon. We get the code after signup which we have to paste in the script tag
 Add in the tags like <i> or <span>
 class="fas fa-cloud"
@@ -181,3 +181,48 @@ class="fas fa-heart"
 class="fas fa-file"
 class="fas fa-bars"
 ---------------------------
+CSS LINKS
+The four links states are: <a>This is a link</a> is an anchor tag
+    a:link - a normal, unvisited link
+    a:link {
+        color: red;
+    }
+a:visited - a link the user has visited
+a:visited {
+  color: green;
+}
+    a:hover - a link when the user mouses over it
+    a:hover {
+        color: hotpink;
+    }
+a:active - a link the moment it is clicked
+a:active {
+  color: blue;
+}
+....
+standard link style I GUESS : hotpink
+a {
+  color: hotpink;
+}
+.....
+RULESSSSSS
+When setting the style for several link states, there are some order rules:
+a:hover MUST come after a:link and a:visited
+a:active MUST come after a:hover
+.....
+TEXT-DECORATION ON SUCH LINKS
+eg : a:hover {
+        text-decoration: underline;
+    }
+...
+BACKGROUND COLOR ON SUCH LINKS
+a:active {
+  background-color: hotpink;
+}
+....
+WE CAN COMBINE THE PROPERTIES AS WELL. eg: a:hover, a:active{} || a:link, a:visited {}
+...
+WE CAN ALSO SET THE CURSOR FOR SUCH LINKS
+eg: cursor : auto;
+    cursor : default;
+----------------------------------------------
