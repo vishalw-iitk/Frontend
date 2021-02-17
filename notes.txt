@@ -172,3 +172,12 @@ Popular Google Font Pairings : Merriweather and Open Sans |  Ubuntu and Lora  | 
 
 example of SHORTHAND NOTATION : font: italic small-caps bold 12px/30px Georgia, serif;
 --------------------------------
+font awesome
+We need to add a js path in a script tag, We have to sign up for font-awesome serverce. Then we can use the following like classes to get the icon. We get the code after signup which we have to paste in the script tag
+Add in the tags like <i> or <span>
+class="fas fa-cloud"
+class="fas fa-car"
+class="fas fa-heart"
+class="fas fa-file"
+class="fas fa-bars"
+---------------------------
