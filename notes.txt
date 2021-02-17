@@ -321,3 +321,21 @@ visibility:hidden; => occupies the alloted space. But is not visible.
 ------------------------------------------------------------------------
 POSITION
 position:static; => It means an element will be positioned based on the normal flow of HTML
+position:relative; => It is just like static but in relative we can move our element to left, right, top or bottom
+                      so relative positioning means relative to its normal/static position how we we want our element want to move. While doing this, an element can overlap other element.
+position:absolute; => In this case an element with position:absolute will search for some parent element whose position is other than static.
+      If it founds out some parent other than static then the positions like top, left, bottom, right etc. will be set based on that parent element.
+      If the parent other than static is not found then it goes to the very broad out element like html or body and will set the position based on that.
+      left, top, right, bottom positioning is just like position:relative but in position:absolute we do it with respect to some parent.
+      If none of top, left, right, bottom is mentioned then the element holds its original position such that it is only visible to the extend of its content and not the full width. And other css element ignores it and overlaps the absolute element with the content of absolute element visible.
+position:fixed; => Parent is always the html tag. All the positioning will be taking place w.r.t html/body tag
+      Even after we scroll, the position on the screen will be still w.r.t body tag/ our current screen. Mean it will always be visible on the screen no matter how much we scroll.
+position:sticky; => It is a combination of relative and fixed.
+      Relative because till the time the element does not collide anywhere it will act as relative. For collision we can provide top, left, right, bottom value which will be implemented once the top, left bottom, right value of that element is reached by means of scrolling.
+      Fixed because, once it gets collide, then it sticks there and stay there even if we scroll in the colliding diention.
+z-index: -1;  => We can add z-index value to mention that whether our element will be below other element or on the top of other element
+      ading the opacity will be good
+      -1 means element will be place behind
+      0 means element will be placed in the front
+clip: rect(0px,60px,200px,0px); => allows us to crop the absolutely positioned elements
+--------------------------------------------------------------

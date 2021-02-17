@@ -8,15 +8,12 @@ body{
     height: 250px;
 }
 
-.class_div_inside{
-    position: relative;
-    left: 150px;;
-}
 
-p{
+
+.para_in{
     background-color: bisque;
     color : black; 
     margin: auto;
-    height:30px;
+    /* height:30px; */
     font-family: "Sofia";
 }
