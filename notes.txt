@@ -226,3 +226,29 @@ WE CAN ALSO SET THE CURSOR FOR SUCH LINKS
 eg: cursor : auto;
     cursor : default;
 ----------------------------------------------
+LISTS
+two type : unordered and ordered
+FOR UNORDERED
+list-style-type: circle;
+list-style-type: sqaure;
+list-style-type: upper-roman;
+list-style-type: lower-alpha;
+
+similarly,....we can add image
+list-style-image: url('sqpurple.gif');
+
+LIST STYLE POSITIONS
+list-style-position: outside;
+"list-style-position: outside;" means that the bullet points will be outside the list item. The start of each line of a list item will be aligned vertically.
+list-style-position: inside;
+"list-style-position: inside;" means that the bullet points will be inside the list item. As it is part of the list item, it will be part of the text and push the text at the start
+
+Remove Default Settings
+i.e. The list with no bullests and all. Bu the list has default margin and padding, so we have to remove them.
+list-style-type: none;
+margin: 0;
+padding: 0;
+
+LIST SHORTHAND NOTATION
+list-style : list-style-type list-style-position list-style-image;
+-----------------------------------------------------------------------
