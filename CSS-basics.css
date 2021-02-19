@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(58, 170, 204);
+}
+
+.class_div_outside{
+    background-color: rgb(43, 144, 226);
+    max-width : 700px;
+    height: 250px;
+}
+
+
+
+.para_in{
+    background-color: bisque;
+    color : black; 
+    margin: auto;
+    /* height:30px; */
+    font-family: "Sofia";
+}
