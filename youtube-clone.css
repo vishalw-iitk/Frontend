@@ -214,7 +214,8 @@
 
 @media only screen and (max-width: 648px) {
     .video-item{
-        width: 135px;
+        width: 145px;
+        height: 260px;
     }
     .youtube-logo{
         width: 20%;
