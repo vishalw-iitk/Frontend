@@ -177,7 +177,7 @@
 }
 .channel-logo{
     width: 15%;
-    padding: 13px;
+    padding: 3px 4px 3px 1px;
     background-color: var(--gray-color);
 }
 .video-details{
