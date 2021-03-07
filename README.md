@@ -1,7 +1,7 @@
 This repository consists of my following learning:
-1) HTML and CSS
-2) JavaScript
-3) ReactJS
+    1) HTML and CSS
+    2) JavaScript
+    3) ReactJS
 
 1) HTML and CSS
     It consists of two subdiectories :
